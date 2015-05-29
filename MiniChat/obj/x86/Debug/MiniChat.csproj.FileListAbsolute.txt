@@ -1,0 +1,7 @@
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\bin\Debug\MiniChat.exe
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\bin\Debug\MiniChat.pdb
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\obj\x86\Debug\MiniChat.Properties.Resources.resources
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\obj\x86\Debug\MiniChat.csproj.GenerateResource.Cache
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\obj\x86\Debug\MiniChat.exe
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\obj\x86\Debug\MiniChat.pdb
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChat\obj\x86\Debug\MiniChat.MiniChatApp.resources

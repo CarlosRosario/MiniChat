@@ -1,0 +1,7 @@
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\obj\x86\Debug\MiniChatTestClient.Client.resources
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\obj\x86\Debug\MiniChatTestClient.Properties.Resources.resources
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\obj\x86\Debug\MiniChatTestClient.csproj.GenerateResource.Cache
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\bin\Debug\MiniChatTestClient.exe
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\bin\Debug\MiniChatTestClient.pdb
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\obj\x86\Debug\MiniChatTestClient.exe
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChatTestClient\MiniChatTestClient\obj\x86\Debug\MiniChatTestClient.pdb
