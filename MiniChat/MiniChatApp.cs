@@ -26,7 +26,7 @@ namespace MiniChat
 
         private void MiniChatApp_Load(object sender, EventArgs e)
         {
-            Listen();
+            //Listen();
             //sendingSocket.Connect("127.0.0.1", 1337);
         }
 
@@ -48,9 +48,9 @@ namespace MiniChat
                });
         }
 
-        private void Listen()
+        private void Listen(int port)
         {
-            TcpListener serverSocket = new TcpListener(IPAddress.Parse("127.0.0.1"), 1337); // ELITE PORT BRO!!!
+            TcpListener serverSocket = new TcpListener(IPAddress.Parse("127.0.0.1"), port); // ELITE PORT BRO!!! Need to make this port configurable.
             serverSocket.Start();
 
             // Begin Listening 
@@ -102,6 +102,50 @@ namespace MiniChat
             serverStream.Write(outStream, 0, outStream.Length);
             serverStream.Flush();
             sendBox.Clear();
+        }
+
+        private void startListeningToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string port; 
+            //Pop up a form asking for port number to connect to
+            using (PortPop popup = new PortPop())
+            {
+                DialogResult dialogresult = popup.ShowDialog();
+                port = popup.Port;
+            }
+            // Call Listen()
+            int portNum;
+            if (Int32.TryParse(port, out portNum))
+            {
+                Listen(portNum);
+            }
+            else
+            {
+                updateStatus(portNum + " is not a legitimate port number");
+            }
+           
+        }
+
+        private void connectToToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string port;
+            //Pop up a form asking for port number to connect to
+            using (PortPop popup = new PortPop())
+            {
+                DialogResult dialogresult = popup.ShowDialog();
+                port = popup.Port;
+            }
+
+            int portNum;
+            if (Int32.TryParse(port, out portNum))
+            {
+                sendingSocket.Connect("127.0.0.1", portNum);
+            }
+            else
+            {
+                updateStatus(portNum + " is not a legitimate port number");
+            }
+            
         }
     }
 }

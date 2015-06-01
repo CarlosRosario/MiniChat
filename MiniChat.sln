@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniChat", "MiniChat\MiniChat.csproj", "{ADD1885C-693C-4428-A942-025585D97CED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniChatTestClient", "..\MiniChatTestClient\MiniChatTestClient\MiniChatTestClient.csproj", "{81B75C48-027A-481D-A930-14666EA83322}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniChatTestClient", "MiniChatTestClient\MiniChatTestClient\MiniChatTestClient.csproj", "{81B75C48-027A-481D-A930-14666EA83322}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

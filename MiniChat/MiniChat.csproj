@@ -53,9 +53,18 @@
       <DependentUpon>MiniChatApp.cs</DependentUpon>
     </Compile>
     <Compile Include="Entry.cs" />
+    <Compile Include="PortPop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortPop.Designer.cs">
+      <DependentUpon>PortPop.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MiniChatApp.resx">
       <DependentUpon>MiniChatApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortPop.resx">
+      <DependentUpon>PortPop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
