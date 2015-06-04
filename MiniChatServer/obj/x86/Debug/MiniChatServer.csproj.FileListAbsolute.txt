@@ -1,0 +1,4 @@
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChatServer\bin\Debug\MiniChatServer.exe
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChatServer\bin\Debug\MiniChatServer.pdb
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChatServer\obj\x86\Debug\MiniChatServer.exe
+C:\Users\CRosario\Documents\Code\C# Workspaces\MiniChat\MiniChatServer\obj\x86\Debug\MiniChatServer.pdb
